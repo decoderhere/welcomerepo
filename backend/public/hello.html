@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div style="display: flex; align-items: center; justify-content: center; height: 100vh;" > 
+            <form style="background-color: gray; padding: 20px; border: 2px solid red;" method="post" enctype="multipart/form-data" action="sanjeev/register" >
+                <label for ='name'> Name</label><br>
+                <input name="name" type="text" /> <br><br>
+                <label> Email</label><br>
+                <input type="email"  name="email"/><br><br>
+                <label> password</label><br>
+                <input type="password" name="password" /> <br><br>
+                <label for="avatar">Choose a profile picture:</label>
+
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /><br><br>
+                <input type="submit"  value="Submit" style="margin-left: auto;" /> <br>
+
+                <a href="/sanjeev/forgotPassword">forgotPassword</a>
+            </form>
+        
+    </div>
+</body>
+</html>
